@@ -47,3 +47,24 @@ box-sizing: border-box;
 {
     text-align: center;
 }
+@media screen and (max-width:600px)
+{
+
+    #cards
+{
+     /* display: flex;
+    justify-content: space-between;  */
+    width: 75%;
+    align-items: center;
+
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 26%;
+}
+}
